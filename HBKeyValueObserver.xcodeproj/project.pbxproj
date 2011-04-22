@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B4F4EDF135FF36D00FC55FA /* GHUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F4EDD135FF36D00FC55FA /* GHUnit.framework */; };
+		7B4F4EE0135FF36D00FC55FA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4F4EDE135FF36D00FC55FA /* OCMock.framework */; };
+		7B4F4F10135FF3B900FC55FA /* GHUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F4F0F135FF3B900FC55FA /* GHUnitTestMain.m */; };
+		7B4F4F24135FF40200FC55FA /* GHUnit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B4F4EDD135FF36D00FC55FA /* GHUnit.framework */; };
+		7B4F4F25135FF40200FC55FA /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B4F4EDE135FF36D00FC55FA /* OCMock.framework */; };
+		7B4F4F51135FF54000FC55FA /* HBKeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F4F4F135FF54000FC55FA /* HBKeyValueObserver.m */; };
+		7B4F4F52135FF54000FC55FA /* HBKeyValueObserverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F4F50135FF54000FC55FA /* HBKeyValueObserverTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B4F4F29135FF42000FC55FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B4F4F24135FF40200FC55FA /* GHUnit.framework in CopyFiles */,
+				7B4F4F25135FF40200FC55FA /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* HBKeyValueObserver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBKeyValueObserver_Prefix.pch; sourceTree = "<group>"; };
+		7B4F4E7E135FF31000FC55FA /* UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4F4E80135FF31000FC55FA /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		7B4F4EDD135FF36D00FC55FA /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnit.framework; sourceTree = SOURCE_ROOT; };
+		7B4F4EDE135FF36D00FC55FA /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = SOURCE_ROOT; };
+		7B4F4F0F135FF3B900FC55FA /* GHUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitTestMain.m; sourceTree = SOURCE_ROOT; };
+		7B4F4F4E135FF54000FC55FA /* HBKeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBKeyValueObserver.h; sourceTree = SOURCE_ROOT; };
+		7B4F4F4F135FF54000FC55FA /* HBKeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBKeyValueObserver.m; sourceTree = SOURCE_ROOT; };
+		7B4F4F50135FF54000FC55FA /* HBKeyValueObserverTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBKeyValueObserverTest.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B4F4E7C135FF31000FC55FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4F4EDF135FF36D00FC55FA /* GHUnit.framework in Frameworks */,
+				7B4F4EE0135FF36D00FC55FA /* OCMock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* HBKeyValueObserver */ = {
+			isa = PBXGroup;
+			children = (
+				08FB779DFE84155DC02AAC07 /* Frameworks */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				7B4BA75A1361111E002FF6AF /* Resources */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+			);
+			name = HBKeyValueObserver;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F4F4E135FF54000FC55FA /* HBKeyValueObserver.h */,
+				7B4F4F4F135FF54000FC55FA /* HBKeyValueObserver.m */,
+				7B4F4F50135FF54000FC55FA /* HBKeyValueObserverTest.m */,
+				7B4F4F0F135FF3B900FC55FA /* GHUnitTestMain.m */,
+				32A70AAB03705E1F00C91783 /* HBKeyValueObserver_Prefix.pch */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F4EDD135FF36D00FC55FA /* GHUnit.framework */,
+				7B4F4EDE135FF36D00FC55FA /* OCMock.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F4E7E135FF31000FC55FA /* UnitTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B4BA75A1361111E002FF6AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B4F4E80135FF31000FC55FA /* UnitTests-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B4F4E7D135FF31000FC55FA /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4F4E83135FF31100FC55FA /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				7B4F4F29135FF42000FC55FA /* CopyFiles */,
+				7B4F4E7B135FF31000FC55FA /* Sources */,
+				7B4F4E7C135FF31000FC55FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 7B4F4E7E135FF31000FC55FA /* UnitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "HBKeyValueObserver" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* HBKeyValueObserver */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B4F4E7D135FF31000FC55FA /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B4F4E7B135FF31000FC55FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4F4F10135FF3B900FC55FA /* GHUnitTestMain.m in Sources */,
+				7B4F4F51135FF54000FC55FA /* HBKeyValueObserver.m in Sources */,
+				7B4F4F52135FF54000FC55FA /* HBKeyValueObserverTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		7B4F4E81135FF31100FC55FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(SRCROOT)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+			};
+			name = Debug;
+		};
+		7B4F4E82135FF31100FC55FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "$(SRCROOT)";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "HBKeyValueObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B4F4E83135FF31100FC55FA /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4F4E81135FF31100FC55FA /* Debug */,
+				7B4F4E82135FF31100FC55FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
